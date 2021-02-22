@@ -1,204 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Responsive Bootstrap</title>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/styles/main.css">
-        <script defer crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-        </script>
-        <script defer crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-        </script>
-        <script defer crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-        </script>
-    </head>
-    <body class="bg-light">
-        <header>
-            <div class="d-flex flex-column flex-sm-row justify-content-around align-items-center">
-                <div class="text-center border-top border-bottom m-4 border__color">
-                    <p class="text-muted p-4 m-0">Winner of the Best travelers Inn and Restaurant<br>
-                        <em>Twice Over!</em></p>
+<head>
+    <title>Responsive Bootstrap</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script defer crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script defer crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script defer crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+</head>
+<body id="home">
+    <header>
+        <div class="d-flex flex-column flex-sm-row justify-content-around align-items-center mt-3">
+            <div class="d-none d-md-block text-center m-4 border__color">
+                <p class="text-muted p-4 m-0">Winner of the Best travelers Inn and Restaurant<br>
+                    <em>Twice Over!</em></p>
                 </div>
-                <img class="logo" src="/images/logo.png">
-                <div class="text-center border-top border-bottom m-4 border__color">
+                <figure>
+                    <img class="logo" src="/images/logo.png">
+                </figure>
+                <div class="d-none d-md-block text-center m-4 border__color">
                     <p class="text-muted p-4 m-0">Just up Logan Canyon on Highway 89<br>
-                        Logan, UT 84321</p>
+                    Logan, UT 84321</p>
                 </div>
             </div>
             <figure class="m-0">
                 <img class="img-fluid" src="/images/riverside_inn.jpg">
             </figure>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-sm navbar-light bg-white">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Menu
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-
-                                <div class="menu__section">
-                                    <h4>Burgers</h4>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Good Ol' Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                <div class="modal fade" id="menu-modal" tabindex="-1" role="dialog" aria-labelledby="menu-modal-label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-center">
+                                <h2 class="modal-title" id="menu-modal-label">Menu</h2>
+                            </div>
+                            <div class="modal-body text-center">
+                                <div class="menu__section container">
+                                    <div class="menu__items row">
+                                        <div class="menu__item col">
+                                            <h4 class="mb-3">Burgers</h4>
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h4 class="mb-3">Appetizers</h4>
+                                            <h5>Chicken Tenders</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$4.99</strong></p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="menu__section">
-                                    <h4>Appetizers</h4>
-                                    <div class="menu__item">
-                                        <h5>Chicken Tenders</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$4.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Onion Blossom</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                <div class="menu__section container mb-5">
+                                    <div class="menu__items row">
+                                        <div class="menu__item col">
+                                            <h5>Good Ol' Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h5>Onion Blossom</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
                                     </div>
                                 </div>
                                 <h3>Dinner</h3>
-                                <div class="menu__section">
-                                    <h4>Appetizers</h4>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                </div>
-                                <div class="menu__section">
-                                    <h4>Drinks</h4>
-                                    <div class="menu__item">
-                                        <h5>Mushroom Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Good Ol' Burger</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                <div class="menu__section container mb-4">
+                                    <div class="menu__items row">
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="w-100"></div>
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="menu__section">
-                                    <h4>Deserts</h4>
-                                    <div class="menu__item">
-                                        <h5>Chicken Tenders</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$4.99</strong></p>
-                                    </div>
-                                    <div class="menu__item">
-                                        <h5>Onion Blossom</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                <div class="menu__section container">
+                                    <div class="menu__items row">
+                                        <div class="menu__item col">
+                                            <h4 class="mb-3">Drinks</h4>
+                                            <h5>Chicken Tenders</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$4.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h4 class="mb-3">Deserts</h4>
+                                            <h5>Mushroom Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="menu__section container">
+                                    <div class="menu__items row">
+                                        <div class="menu__item col">
+                                            <h5>Onion Blossom</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                        <div class="menu__item col">
+                                            <h5>Good Ol' Burger</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>$6.99</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="font-weight-bold" data-dismiss="modal">Home</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" data-toggle="modal" data-target="#menu-modal" href="#">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Location</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Specials</a>
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specials">Specials</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="mb-5">
             <section class="container">
-                <div class="row my-4">
-                    <img class="col-md-3 rounded-circle" src="/images/tasty_burger.jpg">
-                    <div class="col-md-9 px-5">
+                <div class="row my-4 align-items-center">
+                    <img class="col-6 offset-3 mb-3 offset-md-0 col-md-4 rounded-circle" src="/images/tasty_burger.jpg">
+                    <div class="col-md-8">
                         <h4 class="text-center">Great Food</h4>
                         <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Eum praesentium animi nihil aperiam tenetur minima, quis sit perspiciatis cumque, nemo est vero, et iste aliquam vitae odit odio fugiat, ab.</p>
                     </div>
                 </div>
             </section>
             <section class="container">
-                <div class="row my-4">
-                    <img class="col-md-3 order-md-2 rounded-circle" src="/images/small_wedding_cake.jpg">
-                    <div class="col-md-9  order-md-1 px-5">
+                <div class="row my-4 align-items-center">
+                    <img class="col-6 offset-3 mb-3 offset-md-0 col-md-4 order-md-2 rounded-circle" src="/images/small_wedding_cake.jpg">
+                    <div class="col-md-8  order-md-1">
                         <h4 class="text-center">Wedding Services</h4>
                         <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Eum praesentium animi nihil aperiam tenetur minima, quis sit perspiciatis cumque, nemo est vero, et iste aliquam vitae odit odio fugiat, ab.</p>
                     </div>
                 </div>
             </section>
             <section class="container">
-                <div class="row my-4">
-                    <img class="col-md-3 rounded-circle" src="/images/hotel_dining_room.jpg">
-                    <div class="col-md-9 px-5">
+                <div class="row my-4 align-items-center">
+                    <img class="col-6 offset-3 mb-3 offset-md-0 col-md-4 rounded-circle" src="/images/hotel_dining_room.jpg">
+                    <div class="col-md-8">
                         <h4 class="text-center">Lodging</h4>
                         <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Eum praesentium animi nihil aperiam tenetur minima, quis sit perspiciatis cumque, nemo est vero, et iste aliquam vitae odit odio fugiat, ab.</p>
                     </div>
                 </div>
             </section>
-            <section class="bg-white my-5">
+            <section id="specials" class="bg-white my-5">
                 <div class="container">
                     <div class="row py-5 align-items-center">
-                        <img class="col-md-4" src="/images/daily_special.png">
+                        <img class="col-6 offset-3 mb-3 offset-md-0 col-md-4" src="/images/daily_special.png">
                         <div class="col-md-8 px-5">
                             <h4 class="text-center">Special of the Day</h4>
+                            <hr>
                             <p>Get a free appetizer with the purchase of two meals!</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="container">
-                <div class="row">
-                    <p>Questions? Do you need catering? Or just want to drop us a line? We'll get back to you ASAP!</p>
-                    <form>
-                        <input type="text" name="" placeholder="Your Name">
-                        <input type="email" name="" placeholder="Your Email">
-                        <textarea placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send us a line >>">
-                    </form>
-                </div>
+            <section id="contact" class="container">
+                <p>Questions? Do you need catering? Or just want to drop us a line? We'll get back to you ASAP!</p>
+                <form class="mx-3">
+                    <div class="form-group row justify-content-md-between">
+                        <input class="form-control col-md-5 mb-3" name="name" type="text" placeholder="Your Name">
+                        <input class="form-control col-md-5" name="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="for-group row mb-4">
+                        <textarea class="form-control" name="message" rows="3" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group row">
+                        <input type="submit" class="font-weight-bold form-control btn btn-primary col-md-3 offset-sm-8 offset-md-9" value="Send us a line >>">
+                    </div>
+                </form>
             </section>
         </main>
-        <footer>
-            <nav class="navbar">
-                <a href="/" class="navbar-link">Home</a>
-                <a href="#" class="navbar-link">Menu</a>
-                <a href="" class="navbar-link">Contact</a>
-                <a href="" class="navbar-link">Location</a>
-                <a href="" class="navbar-link">Specials</a>
+        <footer class="d-flex justify-content-between align-items-baseline bg-white p-2">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#menu-modal" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#location" class="nav-link">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#specials" class="nav-link">Specials</a>
+                    </li>
+                </ul>
             </nav>
-            <p>BTech Web Development</p>
+            <span>BTech Web Development</span>
         </footer>
-
     </body>
 </html>

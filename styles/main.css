@@ -1,11 +1,36 @@
 body {
     font-family: 'Raleway', sans-serif;
+    color: #808080;
+    background-color: #f1f1f0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
 }
 .border__color {
-    border-color: #7ec8e5;
+    border-top: 1px solid lightskyblue;
+    border-bottom: 1px solid lightskyblue;
 }
 
 .logo {
     width: 100%;
     max-width: 200px;
+}
+
+.modal-content {
+    border-top: 1rem solid #006600;
+    border-bottom: 1rem solid #006600;
+    background-color: #f1f1f0;
+}
+.modal-header {
+    border-bottom: 0.0625rem solid #006600;
+}
+.modal-content a {
+    text-decoration: none;
+    color: #808080;
+}
+hr {
+    border-color: lightskyblue;
+}
+footer a {
+    color: #808080;
 }

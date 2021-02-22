@@ -1,0 +1,11 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.border__color {
+    border-color: #7ec8e5;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+}
